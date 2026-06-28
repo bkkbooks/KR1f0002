@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR1f0002/v1
+canonical_location: https://kanripo.org/bkk/KR1f0002/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 孝經
+  date: '2015-09-10 22:50:18.756727'
+  source:
+    repository: kanripo
+    path: KR1f0002
+  base_edition: SBCK
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+assets:
+  parts:
+  - {seq: 0, filename: KR1f0002_000.yaml, hash: 'sha256:e980adc80d0df586dd9cfa704d13223d1fccea6a66e99f0a5c9a44ff9521ebc6'}
+  - {seq: 1, filename: KR1f0002_001.yaml, hash: 'sha256:35653260a6723d0fe412526699ac48eaa4db1f6af688db3c6ca95a94434b9bf9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1f0002_000.markers.yaml, hash: 'sha256:9152cc948d8f7a32f35a88f75839883e272a953bfe6e2285095925a6db155347'}
+  - {seq: 1, role: markers, filename: assets/KR1f0002_001.markers.yaml, hash: 'sha256:ba4453c1e9209b65284d4c1401db1b8f9ddadb31e4476c9517dbeeb862c1dd4b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1f0002_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 515
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1f0002_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 4877
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:295cb6ebf647295a8f669043e1dfbbd040bb70aa9ea456908dfadf2b244a6902
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
